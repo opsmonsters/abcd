@@ -1,0 +1,87 @@
+body {
+  background-color: #352f5b;
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.header-heading {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+}
+
+.header-search {
+  margin: auto;
+  padding: 8px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  width: 400px;
+}
+
+.todo-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.todo-li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 2px;
+  border-radius: 2px;
+  background-color: #423a6f;
+  width: 500px;
+}
+
+.todo-trash-can {
+  width: 30px;
+  cursor: pointer;
+}
+
+.add-todo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-todo-label {
+  font-size: 24px;
+}
+
+#add-todo {
+  margin: auto;
+  padding: 8px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  width: 400px;
+}
+
+.add-todo-button {
+  margin-top: 16px;
+  padding: 16px;
+  color: white;
+  background-color: #423a6f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-todo-button:hover {
+  color: #423a6f;
+  background-color: white;
+}
